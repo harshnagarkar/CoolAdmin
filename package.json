@@ -1,0 +1,22 @@
+{
+  "name": "cooladmin-webpack",
+  "version": "1.0.0",
+  "description": "Webpack for Cool Admin Dashboard",
+  "main": "CoolAdminWebpack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshnagarkar/CoolAdmin.git"
+  },
+  "author": "Harsh Nagarkar",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/harshnagarkar/CoolAdmin/issues"
+  },
+  "homepage": "https://github.com/harshnagarkar/CoolAdmin#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2"
+  }
+}
