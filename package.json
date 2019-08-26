@@ -4,19 +4,22 @@
   "description": "Webpack for Cool Admin Dashboard",
   "main": "CoolAdminWebpack.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harshnagarkar/CoolAdmin.git"
   },
-  "author": "Harsh Nagarkar",
+  "author": "Colorlib,Harsh Nagarkar",
   "license": "(MIT)",
   "bugs": {
     "url": "https://github.com/harshnagarkar/CoolAdmin/issues"
   },
   "homepage": "https://github.com/harshnagarkar/CoolAdmin#readme",
   "devDependencies": {
-    "webpack": "^4.39.2"
+    "webpack": "^4.39.2",
+    "webpack-dev-server": "^3.8.0"
   }
 }
