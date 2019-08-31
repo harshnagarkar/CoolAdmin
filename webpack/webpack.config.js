@@ -37,7 +37,8 @@ module.exports = {
     },
     plugins: [
         new webpack.optimizer.UglifyJsPlugin({
-            //..
+            
+
         })
     ]
 };
